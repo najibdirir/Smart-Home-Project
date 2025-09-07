@@ -1,0 +1,17 @@
+#include "at91sam3x8.h"
+#include "system_sam3x.h"
+#include <stdint.h>
+#define NULL '\0'
+#include "date_and_time.h"
+#include "keypad.h"
+#include "light_sensor.h"
+#include "servo.h"
+#include "display.h"
+#include "temperature_sensor.h"
+#include "interrupt_handlers.h"
+#include "print_functions.h"
+#include "data_structure_linkedList.h"
+#include "exceptions.h"
+#include "shader.h"
+#include "make_temperature_data.h"
+#include "user_interface.h"
